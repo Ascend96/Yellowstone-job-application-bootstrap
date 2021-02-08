@@ -1,0 +1,117 @@
+$primary: #003300;
+$secondary: #559050;
+// include variables to override bootstrap
+@import "theme/variables";
+// include bootstrap
+//@import "bootstrap/bootstrap";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/toasts";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/spinners";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
+main{
+  min-height: 100vh;
+   background-color: $primary;
+   color: white;
+ }
+.container{
+  min-height: 60vh;
+  background-color: $secondary;
+}
+.application{
+  display: none;
+}
+.submittedApplication{
+  display: none;
+}
+.jobChoice1{
+  display: none;
+}
+.jobChoice2{
+  display: none;
+}
+.addChoice2{
+  display: none;
+}
+#employer2Section{
+  display: none;
+}
+#addEmployer3{
+  display: none;
+}
+#employer3Section{
+  display: none;
+}
+#addEmployer4{
+  display: none;
+}
+.education2{
+  display: none;
+}
+.education3{
+  display: none;
+}
+#addEducation2{
+  display: none;
+}
+#addEducation3{
+  display: none;
+}
+.driverLicenseTrue{
+  display: none;
+}
+.convictedYes{
+  display: none;
+}
+.workedPrevYes{
+  display: none;
+}
+.employedDifName{
+  display: none;
+}
+.spouseCurEmployee{
+  display: none;
+}
+.above18{
+  display: none;
+}
+h1{
+ color: #F5D547;
+}
+
+
+// add additional components
+@import "components/collapse";
